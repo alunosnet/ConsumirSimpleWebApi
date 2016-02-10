@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="formweb.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:formweb"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button" Content="Enviar" HorizontalAlignment="Left" Margin="141,78,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBox x:Name="tbResposta" HorizontalAlignment="Left" Margin="10,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="97" Width="340"/>
+        <TextBox x:Name="tbAEnviar" HorizontalAlignment="Left" Margin="10,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,129,0,0" TextWrapping="Wrap" Text="Resposta" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="38,23,0,0" TextWrapping="Wrap" Text="Exemplo que envia dados para uma página web e mostra a resposta" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
